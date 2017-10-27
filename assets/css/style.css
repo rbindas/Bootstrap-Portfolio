@@ -93,7 +93,7 @@ h5{
 }
 h3,
 .side h2 {
-  padding-bottom: 20px;
+/*  padding-bottom: 20px;*/
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eee;
@@ -193,4 +193,26 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+.button {
+  padding: 10px 30px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4aaaa5;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+.button:hover {background-color: #6EE4E0}
+
+.button:active {
+  background-color: #4aaaa5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
